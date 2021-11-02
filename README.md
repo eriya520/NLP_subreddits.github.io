@@ -13,7 +13,7 @@ Pandemic has caused a loss in in-store visits for both stores, however, Trader J
 The project is aimed to look the most recent subreddits on both stores and analyze the sentiments online. We will also utilize NLP and classification models to predict which a given post came from.
 This would be the very first step for a customer churn for marketing analysis in future.
 
-### For project 3, the following approach is followed:
+### For this project the following approach is followed:
 1. **Data Collection:** Collect 1000 subreddits since 09/30/2021 on both store names: traderjoes vs wholefoods through subreddit API.
 2. **EDA:** NPL analysis to count the word length of the title, and analyze the postivtiness of the posts in the whole data and compare the overall scores of the two stores.
 3. **Modeling:** The data were train-test splited into train and test data sets. In the pipeline, the CountVectorizer() is responsible for NLP fit and transform, and 4 different classification models were explored. The best two models are : 1) MultinomialNB and 2) RandomForest Classifier.
@@ -30,7 +30,7 @@ In this project, two high-performed models have been explored, each one has its 
 
 ### Conclusion
 **NPL Analysis:**
-* Sentimental analysis showed the post length are about the same for both stores, but Trader Joe's won by a large margin on having more positive postS, and Trader Joe's also tends to have less negative posts as compared to Whole Foods.
+* Sentimental analysis showed the post length are about the same for both stores, but Trader Joe's won by a large margin on having more positive posts, and Trader Joe's also tends to have less negative posts as compared to Whole Foods.
 
 In this project, two high-performed models have been explored, each one has its own pros and cons:
 **Model recommendation should be tailored to customer need:**
